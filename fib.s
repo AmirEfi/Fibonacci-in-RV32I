@@ -35,7 +35,7 @@ fibonacci: # fibonacci function
     
 main:
 
-	addi a0, zero, 5 # array[0]
+    addi a0, zero, 5 # array[0]
     jal fibonacci
     
     addi a0, zero, 3 # array[1]
